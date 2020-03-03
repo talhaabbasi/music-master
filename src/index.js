@@ -1,12 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
+import "./index.css";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// new Promise((resolve, reject) => {
+//   return reject(new Error("No bears"));
+//   setTimeout(() => {
+//     resolve("Bears,Whateves,Whateves2");
+//   }, 2000);
+// })
+//   .then(quote => {
+//     console.log(quote);
+//   })
+//   .catch(error => console.log(error));
